@@ -1,7 +1,10 @@
 ---
 Name: cwproutes
-After: 'rootroutes'
+After:
+  - '#rootroutes'
+  - '#coreroutes'
 ---
+
 Director:
   rules:
-    'search': 'CwpSearchPage_Controller'
+    'search': 'CWP\Cwp\Controller\CwpSearchPageController'

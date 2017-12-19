@@ -117,9 +117,10 @@ en:
     DESCRIPTION: 'Holder page that displays all child pages as links in the footer'
     PLURALNAME: 'Footer Holders'
     SINGULARNAME: 'Footer Holder'
-  FullTextSearch:
-    SynonymValidator:
-      InvalidValue: 'Synonyms cannot contain words separated by spaces'
+# @@todo @upgrade    
+#  FullTextSearch:
+#    SynonymValidator:
+#      InvalidValue: 'Synonyms cannot contain words separated by spaces'
   GridField:
     Archived: Archived
     Live: Live

@@ -2,15 +2,18 @@
 	"name": "cwp/cwp",
 	"description": "CWP features module. We strongly recommend using it for all new sites. Future features will be delivered here.",
 	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "cwp"],
+    	"keywords": [
+        	"silverstripe",
+        	"cwp"
+   	],
 	"license": "BSD-3-Clause",
 	"require": {
 		"cwp/cwp-core": "*",
-		"silverstripe/taxonomy": "*"
+		"silverstripe/taxonomy": "dev-master as 2.0.0"
 	},
         "extra": {
 		"branch-alias": {
-			"dev-master": "1.9.x-dev"
+			"dev-master": "2.0.x-dev"
 		}
 	}
 }

@@ -1,0 +1,47 @@
+mappings:
+  # Controller
+  BaseHomePage_Controller: CWP\Cwp\Controller\BaseHomePageController
+  BasePage_Controller: CWP\Cwp\Controller\BasePageController
+  CwpSearchPage_Controller: CWP\Cwp\Controller\CwpSearchPageController
+  DatedUpdateHolder_Controller: CWP\Cwp\Controller\DatedUpdateHolderController
+  DatedUpdatePage_Controller: CWP\Cwp\Controller\DatedUpdatePageController
+  EventHolder_Controller: CWP\Cwp\Controller\EventHolderController
+  EventPage_Controller: CWP\Cwp\Controller\EventPageController
+  FooterHolder_Controller: CWP\Cwp\Controller\FooterHolderController
+  NewsHolder_Controller: CWP\Cwp\Controller\NewsHolderController
+  NewsPage_Controller: CWP\Cwp\Controller\NewsPageController
+  SitemapPage_Controller: CWP\Cwp\Controller\SitemapPageController
+  # Extension
+  CustomSiteConfig: CWP\Cwp\Extension\CustomSiteConfig
+  CwpCommentingExtension: CWP\Cwp\Extension\CwpCommentingExtension
+  CwpSearchBoostExtension: CWP\Cwp\Extension\CwpSearchBoostExtension
+  CwpSiteTreeExtension: CWP\Cwp\Extension\CwpSiteTreeExtension
+  CwpSiteTreeFileExtension: CWP\Cwp\Extension\CwpSiteTreeFileExtension
+  CwpWorkflowDefinitionExtension: CWP\Cwp\Extension\CwpWorkflowDefinitionExtension
+  SynonymValidator: CWP\Cwp\Extension\SynonymValidator
+  SynonymsSiteConfig: CWP\Cwp\Extension\SynonymsSiteConfig
+  TaxonomyTermExtension: CWP\Cwp\Extension\TaxonomyTermExtension
+  # Model
+  Quicklink: CWP\Cwp\Model\QuickLink
+  # Page
+  BaseHomePage: CWP\Cwp\Page\BaseHomePage
+  BasePage: CWP\Cwp\Page\BasePage
+  DatedUpdateHolder: CWP\Cwp\Page\DatedUpdateHolder
+  DatedUpdatePage: CWP\Cwp\Page\DatedUpdatePage
+  EventHolder: CWP\Cwp\Page\EventHolder
+  EventPage: CWP\Cwp\Page\EventPage
+  FooterHolder: CWP\Cwp\Page\FooterHolder
+  NewsHolder: CWP\Cwp\Page\NewsHolder
+  NewsPage: CWP\Cwp\Page\NewsPage
+  SitemapPage: CWP\Cwp\Page\SitemapPage
+  # Search
+  CwpSearchEngine: CWP\Cwp\Search\CwpSearchEngine
+  CwpSearchPage: CWP\Cwp\Search\CwpSearchPage
+  CwpSearchResult: CWP\Cwp\Search\CwpSearchResult
+  # Task
+  CleanupGeneratedPdfDailyTask: CWP\Cwp\Task\CleanupGeneratedPdfDailyTask
+  CleanupGeneratedPdfBuildTask: CWP\Cwp\Task\CleanupGeneratedPdfBuildTask
+  PopulateThemeSampleDataTask: CWP\Cwp\Task\PopulateThemeSampleDataTask
+  
+  
+  
